@@ -1,4 +1,4 @@
-import Player from './components/Player.jsx';
+import Playe from './components/Player.jsx';
 import TimerChallange from './components/TimerChallenge.jsx';
 
 function App() {
