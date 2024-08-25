@@ -3,7 +3,7 @@ import {createPortal} from 'react-dom';
 
 const ResultModal = forwardRef(function ResultModal(
     {targetTTime, remainingTime, onReset}, ref){
-    const dialog = useRef();
+    const dialog = useRef()
 
     const userLost = remainingTime <= 0;
     const formattedRemaningTime = (remainingTime / 1000).toFixed(2)
